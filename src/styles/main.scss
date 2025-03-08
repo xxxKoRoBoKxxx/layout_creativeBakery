@@ -2,6 +2,12 @@
 @import 'fonts';
 @import 'typography';
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   background: $c-gray;
 }
