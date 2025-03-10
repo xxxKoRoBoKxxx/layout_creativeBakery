@@ -1,22 +1,31 @@
+<!-- #region head -->
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
     />
     <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
-      rel="stylesheet"
-      href="./styles/main.scss"
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin="anonymous"
+    >
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="./styles/main.scss"
     />
   </head>
+  <!-- #endregion -->
   <body>
     <div class="hero-block">
       <header class="header">
         <a
-          class="header__logo"
+          class="header__logo-link"
           href="#"
         >
           <img
@@ -25,8 +34,32 @@
             class="header__logo"
           />
         </a>
-        <div class="header__icon-menu"></div>
+        <a class="header__icon-menu-link">
+          <img
+            src="./images/icons/icon-menu-black.png"
+            alt="Menu icon"
+            class="header__icon-menu"
+          />
+        </a>
       </header>
+      <div class="hero-block__content container page-grid">
+        <p class="hero-block__text">
+          We bake your fantasies — croissants, cakes, cookies, and cupcakes.
+        </p>
+        <h1 class="hero-block__title">
+          Creative bakery
+        </h1>
+        <a href="#" class="hero-block__button-link">
+          <button type="button" class="hero-block__button">
+            <img
+              src="images/icons/icon-cookie.png"
+              alt="cookie"
+              class="button__img"
+            >
+            Learn more
+          </button>
+        </a>
+      </div>
     </div>
     <script src="scripts/main.js"></script>
   </body>

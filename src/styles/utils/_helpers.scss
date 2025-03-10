@@ -1,0 +1,22 @@
+.container {
+  padding-inline: 16px;
+
+  @include screen-m{
+    padding-inline: 44px;
+    margin-inline: auto;
+  }
+}
+
+.page-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+
+  @include screen-m {
+    grid-template-columns: repeat(1fr, 8);
+    gap: 24px;
+  }
+
+  @include screen-xl {
+    grid-template-columns: repeat(128px, 8);
+  }
+}

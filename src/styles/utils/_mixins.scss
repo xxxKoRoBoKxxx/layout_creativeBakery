@@ -4,3 +4,21 @@
     #{$_property}: $_toValue;
   }
 }
+
+@mixin screen-m {
+  @media(min-width: 640px) {
+    @content;
+  }
+}
+
+@mixin screen-l {
+  @media(min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin screen-xl {
+  @media(min-width: 1200px) {
+    @content;
+  }
+}
