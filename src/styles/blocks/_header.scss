@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  height: 64px;
+
+  @include screen-l {
+    height: 88px;
+  }
+
+  padding-inline: 16px;
+
+  @include screen-l {
+    padding-inline: 32px;
+  }
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    height: 100%;
+
+    &-link {
+      height: 32px;
+    }
+  }
+
+  &__icon-menu{
+    width: 100%;
+
+    &-link{
+      height: 24px;
+      width: 24px;
+    }
+  }
+}

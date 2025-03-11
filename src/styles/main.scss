@@ -3,11 +3,16 @@
 @import 'typography';
 
 *,
-*::before,
-*::after {
+*::after,
+*::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background: $c-gray;
+  background: $bg-blue;
 }
+
+@import 'blocks/hero-block';
+@import 'blocks/header';

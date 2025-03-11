@@ -9,6 +9,19 @@
     />
     <title>Title</title>
     <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="./styles/main.scss"
     />
@@ -18,7 +31,7 @@
     <div class="hero-block">
       <header class="header">
         <a
-          class="header__logo"
+          class="header__logo-link"
           href="#"
         >
           <img
@@ -27,35 +40,37 @@
             class="header__logo"
           />
         </a>
-        <div class="header__icon-menu"></div>
-        <div class="header__menu-container">
-          <a href="#">Products</a>
-          <a href="#">About Us</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact us</a>
-        </div>
+        <a class="header__icon-menu-link">
+          <img
+            src="./images/icons/icon-menu-black.png"
+            alt="Menu icon"
+            class="header__icon-menu"
+          />
+        </a>
       </header>
-    </div>
-
-    <aside class="aside">
-      <header class="header">
+      <div class="hero-block__content container page-grid">
+        <p class="hero-block__text">
+          We bake your fantasies — croissants, cakes, cookies, and cupcakes.
+        </p>
+        <h1 class="hero-block__title">Creative bakery</h1>
         <a
-          class="header__logo"
           href="#"
+          class="hero-block__button-link"
         >
-          <img
-            src="./images/icons/logo.png"
-            alt="Bakery logo"
-            class="header__logo"
-          />
+          <button
+            type="button"
+            class="hero-block__button"
+          >
+            <img
+              src="images/icons/icon-cookie.png"
+              alt="cookie"
+              class="button__img"
+            />
+            Learn more
+          </button>
         </a>
-        <div class="header__icon-menu"></div>
-      </header>
-    </aside>
-
-    <main></main>
-
-    <footer></footer>
+      </div>
+    </div>
     <script src="scripts/main.js"></script>
   </body>
 </html>
