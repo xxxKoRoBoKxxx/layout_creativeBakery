@@ -1,0 +1,12 @@
+.button {
+  width: 100%;
+  height: 56px;
+  border: 2px solid $accent-orange;
+  border-radius: 32px;
+
+  &__img {
+    width: 24px;
+    height: 24px;
+    margin-block: 16px;
+  }
+}

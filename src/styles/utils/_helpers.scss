@@ -1,15 +1,17 @@
 .container {
   padding-inline: 16px;
 
-  @include screen-m{
+  @include screen-m {
     padding-inline: 44px;
     margin-inline: auto;
   }
 }
 
 .page-grid {
+  display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  column-gap: 16px;
+  align-items: center;
 
   @include screen-m {
     grid-template-columns: repeat(1fr, 8);
