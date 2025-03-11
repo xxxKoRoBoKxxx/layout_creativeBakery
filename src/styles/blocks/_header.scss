@@ -1,9 +1,9 @@
 .header {
   width: 100%;
-  height: 64px;
+  height: $header-height-s;
 
   @include screen-l {
-    height: 88px;
+    height: $header-height-l;
   }
 
   padding-inline: 16px;

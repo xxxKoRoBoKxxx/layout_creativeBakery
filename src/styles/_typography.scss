@@ -1,3 +1,71 @@
-h1 {
-  @extend %h1;
+.big-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 85%;
+
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+}
+
+.body-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+
+  letter-spacing: -0.01em;
+}
+
+.uppercase {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.heading {
+  &-h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 85%;
+
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    font-size: 64px;
+
+    @include screen-m {
+      font-size: 80px;
+    }
+
+    @include screen-l {
+      font-size: 144px;
+    }
+  }
+
+  &-h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 85%;
+
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    font-size: 48px;
+
+    @include screen-m {
+      font-size: 56px;
+    }
+
+    @include screen-l {
+      font-size: 72px;
+    }
+  }
 }

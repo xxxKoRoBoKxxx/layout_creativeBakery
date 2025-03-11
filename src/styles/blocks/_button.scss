@@ -4,6 +4,14 @@
   border: 2px solid $accent-orange;
   border-radius: 32px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  text-decoration: none;
+  color: $accent-orange;
+
   &__img {
     width: 24px;
     height: 24px;
