@@ -1,5 +1,5 @@
 .big-text {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 96px;
@@ -10,7 +10,7 @@
 }
 
 .body-text {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -20,7 +20,7 @@
 }
 
 .uppercase {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -32,7 +32,7 @@
 
 .heading {
   &-h1 {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 85%;
@@ -51,7 +51,7 @@
   }
 
   &-h2 {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 85%;
